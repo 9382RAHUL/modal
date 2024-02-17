@@ -1,0 +1,61 @@
+.github-profile-container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: 3px solid rebeccapurple;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    
+     /* background: linear-gradient(45deg, blue, red); */
+     /* background: linear-gradient(0deg, blue, green 40%, red); */
+}
+.input-wrapper{
+    
+    margin-top: 12px;
+}
+input{
+    width: 30%;
+    height: 26px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 12px;
+    border-radius: 12px;
+    margin-left: 12px;
+    color: black;
+    background-color:greenyellow;
+}
+button:hover{
+    background: #000;
+    color: greenyellow;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.avatar{
+    width: 100px;
+    margin-top: 12px;
+    border-radius: 50%;
+    object-fit: contain;
+
+}
+.user{
+    margin: 34px auto;
+    border: 3px solid red;
+    width: 50%;
+    background-color: rgb(95, 150, 160);
+    border-radius: 10px;
+
+}
+.p_tag{
+    font-size: 27px;
+    font-weight: bold;
+}
+.pop{
+    display: flex;
+    justify-content: center;align-items: center;
+    font-size: 24px;
+}
+.pop_p{
+    margin-right: 70px;
+}

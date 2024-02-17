@@ -1,11 +1,13 @@
 
 import './App.css';
-import Modaltext from './components/Modaltext';
+// import Modaltext from './components/Modaltext';
+import GithubProFinder from './components/github/GithubProFinder';
 
 function App() {
   return (
     <div className="App">
-     <Modaltext/>
+     {/* <Modaltext/> */}
+     <GithubProFinder/>
     </div>
   );
 }
